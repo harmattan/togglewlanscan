@@ -1,4 +1,4 @@
-QT       += core # dbus
+QT       += core
 
 TARGET = togglewlanscan
 CONFIG   += console
