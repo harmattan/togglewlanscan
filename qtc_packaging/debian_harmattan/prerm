@@ -1,0 +1,23 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+    purge|remove|upgrade)
+        # Restore default wifi search interval when uninstalling application.
+        gconftool -s /system/osso/connectivity/network_type/search_interval -t int 300
+    ;;
+    
+    failed-upgrade|abort-install|abort-upgrade|disappear)
+    ;;
+
+    *)
+        echo "postrm called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+#DEBHELPER#
+
+exit 0
+

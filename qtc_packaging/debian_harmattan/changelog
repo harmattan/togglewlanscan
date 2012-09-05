@@ -1,0 +1,10 @@
+togglewlanscan (1.0.0) unstable; urgency=low
+  * Changing of icon and text in homescreen works now
+
+ -- Arto Jalkanen <ajalkane@gmail.com>  Sun, 04 Sep 2012 22:47:19 +0300
+
+togglewlanscan (0.9.0) unstable; urgency=low
+  * Initial version
+
+ -- Arto Jalkanen <ajalkane@gmail.com>  Sun, 02 Sep 2012 21:47:19 +0300
+
